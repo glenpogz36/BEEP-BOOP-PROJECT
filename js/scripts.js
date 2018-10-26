@@ -4,11 +4,11 @@ function Enternumbers(input) {
   for (var index = 0; index <= input; index++) {
 
     if (index % 3 === 0 && index !== 0) {
-      output= "I'm sorry, Dave. I'm afraid I can't do that.";
+      output= "I'm sorry, Dave. I'm afraid I can't do that." + " ";
   } else if(index.toString().includes("1")) {
-    output= "Boop!";
+    output= "Boop!" + " ";
   } else if (index.toString().includes("0")) {
-  output= "Beep!";
+  output= "Beep!" + " ";
   } else {
 
 
