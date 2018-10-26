@@ -10,7 +10,7 @@ function Enternumbers(input) {
   } else if (index.toString().includes("0")) {
   output= "Beep!";
   } else {
-    
+
 
   }
 }
