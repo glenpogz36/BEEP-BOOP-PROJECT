@@ -1,14 +1,14 @@
 var output = []
 
 function Enternumbers(input) {
-  for (var index=0; index<=input; index++) {
-    output.push(index);
-    if (output[index] % 3 === 0) {
-      output[index] = "I'm sorry, Dave. I'm afraid I can't do that.";
+  for (var index = 0; index <= input; index++) {
+      
+    if (index % 3 === 0 && index !== 0) {
+      output= "I'm sorry, Dave. I'm afraid I can't do that.";
   } else if (index.toString().includes("0")) {
-    output[index] = "Beep!";
+    output= "Beep!";
   } else if (index.toString().includes("1")) {
-    output[index] = "Boop!";
+    output= "Boop!";
   } else {
 
   }
